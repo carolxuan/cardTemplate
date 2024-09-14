@@ -1,0 +1,58 @@
+/* 全站設定
+-------------------------------------------------- */
+
+/*-------------------------*/
+/* $font import
+---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/*-------------------------*/
+/* $font icon
+---------------------------*/
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css');
+
+/* 全域 border box */
+body {
+  color: #000;
+  overflow-x: hidden !important;
+  font-family: 'Noto Sans TC', arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
