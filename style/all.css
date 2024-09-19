@@ -69,6 +69,14 @@
 }
 .product-tab {
   margin-bottom: 24px;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.product-tab::-webkit-scrollbar {
+  display: none;
 }
 .tab-button {
   display: inline-block;
@@ -221,9 +229,6 @@
   .phone-email {
     margin-bottom: 36px;
   }
-  .tab-button {
-    margin: 0px 8px 16px 0;
-  }
   .business-footer {
     margin-bottom: 16px;
   }
@@ -264,16 +269,11 @@
   .social-icons a {
     margin-right: 18px;
   }
-  .tab-button {
-    margin: 0 0 16px 0;
-    padding: 24px 40px;
-    width: 100%;
-  }
   .product {
     margin-bottom: 56px;
   }
   .product-tab {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
   }
 }
 @media (max-width: 393px) {
